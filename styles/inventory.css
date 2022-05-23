@@ -1,0 +1,21 @@
+#all_products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap: 2%;
+    box-sizing: border-box;
+}
+#div{
+    //border: 1px solid red;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.img{
+    
+    height: 300px;
+    width: 80%;
+    padding: 15%;
+    
+}
+.div1{
+    text-align: center;
+}

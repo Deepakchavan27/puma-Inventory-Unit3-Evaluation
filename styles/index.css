@@ -1,0 +1,46 @@
+h2{
+    margin-left: 45%;
+}
+#innerDiv{
+    height: 400px;
+    width: 40%;
+    margin: auto;
+    margin-top: 7%;
+}
+#type{
+    display: block;
+}
+#desc{
+    display: block;
+}
+#image{
+    display: block;
+}
+#price{
+    display: block;
+}
+input{
+    height: 50px;
+    width:90%;
+    border-radius: 10px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border: 1px solid gray;
+    
+    margin: auto;
+    margin-top: 1%;
+}
+#add_product{
+    margin-top: 4%;
+    margin-left: 40%;
+    font-size: larger;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    border: 0px;
+    padding: 1%;
+}
+input::placeholder{
+  font-size: larger;
+  text-align: center;
+  font-style: italic ;
+}
